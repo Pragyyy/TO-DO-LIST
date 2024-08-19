@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskMaster Pro</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <h1 class="app-title">TaskMaster Pro</h1>
+        <div class="input-container">
+            <input type="text" id="taskInput" placeholder="Enter your task here..." class="task-input">
+            <input type="date" id="dueDate" class="date-input">
+            <select id="priority" class="priority-input">
+                <option value="low">Low Priority</option>
+                <option value="medium">Medium Priority</option>
+                <option value="high">High Priority</option>
+            </select>
+            <button id="addTaskBtn" class="add-btn">Add Task</button>
+        </div>
+        <ul id="taskList" class="task-list"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
